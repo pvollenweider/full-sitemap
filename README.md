@@ -1,6 +1,6 @@
 # full-sitemap
 
-**The goal of this module is to provide a sitemap.xml threw a XML view of the jnt:page**
+**The goal of this module is to provide a sitemap.xml of a full site using a XML view of the jnt:page**
 
 Typically, when the module is enabled on the acme site, calling this URL will provide a full xml sitemap
 https://host.domain/cms/render/live/en/sites/acme/home.full-sitemap.xml
