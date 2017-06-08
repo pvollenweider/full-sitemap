@@ -14,3 +14,7 @@ Then the sitemap.xml file will be available as a static if the parent directory 
     ProxyPass /sitemap.xml !
 
 Of course you need ajust the URL, the path and the host name, and you can also set the language for i18n sites.
+
+----------
+
+This module can work with https://github.com/jahia/sitemap and will use the changefreq and priority properties if set.
