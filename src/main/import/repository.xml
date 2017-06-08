@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content xmlns:j="http://www.jahia.org/jahia/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0">
+    <modules jcr:primaryType="jnt:modules">
+        <full-sitemap j:dependencies="default"
+                    j:modulePriority="0"
+                    j:moduleType="module"
+                    j:title="Full sitemap"
+                    jcr:mixinTypes="jmix:hasExternalProviderExtension"
+                    jcr:primaryType="jnt:module">
+                <sources jcr:mixinTypes="jmix:hasExternalProviderExtension jmix:sourceControl"
+                  jcr:primaryType="jnt:moduleVersionFolder"
+                  j:staticMountPointProviderKey="module-full-sitemap-1.1-SNAPSHOT">
+                    <src jcr:mixinTypes="jmix:hasExternalProviderExtension jmix:sourceControl"
+                 jcr:primaryType="jnt:folder">
+                        <main jcr:mixinTypes="jmix:hasExternalProviderExtension jmix:sourceControl"
+                     jcr:primaryType="jnt:folder">
+                            <resources jcr:mixinTypes="jmix:hasExternalProviderExtension jmix:sourceControl"
+                             jcr:primaryType="jnt:folder">
+                                <jnt_page jcr:mixinTypes="jmix:hasExternalProviderExtension jmix:sourceControl"
+                               jcr:primaryType="jnt:nodeTypeFolder">
+                                    <xml jcr:mixinTypes="jmix:hasExternalProviderExtension jmix:sourceControl"
+                             jcr:primaryType="jnt:templateTypeFolder">
+                                        <page.full-sitemap.jsp jcr:mixinTypes="jmix:sourceControl" jcr:primaryType="jnt:viewFile"/>
+                                    </xml>
+                                </jnt_page>
+                            </resources>
+                        </main>
+                    </src>
+                    <pom.xml jcr:mixinTypes="jmix:sourceControl" jcr:primaryType="jnt:xmlFile"/>
+                </sources>
+                
+                <portlets jcr:primaryType="jnt:portletFolder"/>
+                <files jcr:primaryType="jnt:folder"/>
+                <contents jcr:primaryType="jnt:contentFolder"/>
+                <templates j:rootTemplatePath="/base" jcr:primaryType="jnt:templatesFolder">
+                    <files jcr:primaryType="jnt:folder"/>
+                    <contents jcr:primaryType="jnt:contentFolder"/>
+                </templates>
+                
+            </full-sitemap>
+    </modules>
+</content>
