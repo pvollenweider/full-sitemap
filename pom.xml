@@ -28,7 +28,7 @@
         GNU General Public License for more details.
 
         You should have received a copy of the GNU General Public License
-        along with this program. If not, see <http://www.gnu.org/licenses/>.
+        along with this program. If not, see <http://www.gnu.org/licenses />.
 
 
         2/ JSEL - Commercial and Supported Versions of the program
@@ -44,8 +44,7 @@
         please contact the sales department at sales@jahia.com.
 
 -->
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.jahia.modules</groupId>
@@ -54,13 +53,13 @@
   </parent>
   <groupId>org.jahia.modules</groupId>
   <artifactId>full-sitemap</artifactId>
-  <version>1.1-SNAPSHOT</version>
+  <version>1.0</version>
   <packaging>bundle</packaging>
   <name>Full sitemap</name>
   <description>This module provide a way to have a full sitemap</description>
   <scm>
-    <connection>scm:svn:https://github.com/pvollenweider/full-sitemap</connection>
-    <developerConnection>scm:svn:https://github.com/pvollenweider/full-sitemap</developerConnection>
+    <connection>scm:git:git@github.com:pvollenweider/full-sitemap.git</connection>
+    <developerConnection>scm:git:git@github.com:pvollenweider/full-sitemap.git</developerConnection>
   </scm>
   <repositories>
     <repository>
