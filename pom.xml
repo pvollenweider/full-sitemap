@@ -53,14 +53,14 @@
   </parent>
   <groupId>org.jahia.modules</groupId>
   <artifactId>full-sitemap</artifactId>
-  <version>1.1</version>
+  <version>1.2-SNAPSHOT</version>
   <packaging>bundle</packaging>
   <name>Full sitemap</name>
   <description>This module provide a way to have a full sitemap</description>
   <scm>
     <connection>scm:git:git@github.com:pvollenweider/full-sitemap.git</connection>
     <developerConnection>scm:git:git@github.com:pvollenweider/full-sitemap.git</developerConnection>
-    <tag>full-sitemap-1.1</tag>
+    <tag>HEAD</tag>
   </scm>
   <repositories>
     <repository>
