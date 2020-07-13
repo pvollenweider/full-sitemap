@@ -53,7 +53,7 @@
         </jcr:jqom>
         <c:forEach items="${fullList.nodes}" var="item">
             <c:set var="identifier" value="${item.identifier}"/>
-            <c:if test="${! fn:contains(allId, identifier) && ! jcr:isNodeType(item, 'cmix:noindex')}">
+            <c:if test="${! fn:contains(allId, identifier) && ! jcr:isNodeType(item, 'cmix:noindex') && ! jcr:isNodeType(item, 'jmix:noindex')}">
                 <c:set var="allId" value="${allId} ${identifier}"/>
                 <url>
                     <c:url var="url" value="${item.url}" context="/"/>
