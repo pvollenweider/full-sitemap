@@ -40,6 +40,7 @@
     <c:set var="contentTypesToHandle" value="${fn:replace(contentTypesToHandle, 'wemnt:optimizationTest ', '')}"/>
     <c:set var="contentTypesToHandle" value="${fn:replace(contentTypesToHandle, 'wemnt:personalizedContent ', '')}"/>
     <c:set var="contentTypesToHandle" value="${fn:replace(contentTypesToHandle, 'fcnt:form ', '')}"/>
+    <c:set var="contentTypesToHandle" value="${fn:replace(contentTypesToHandle, 'fcnt:formFactory ', '')}"/>        
         
     <c:set var="contentTypesToHandle" value="${contentTypesToHandle} jnt:page"/>
     <c:set var="allId"/>
