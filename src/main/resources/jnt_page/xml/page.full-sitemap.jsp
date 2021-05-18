@@ -77,14 +77,18 @@
                                                     </url>
                                                 </c:if>
                                             </c:catch>
+                                            <%--
                                             <c:if test="${catchException != null}">
                                                 <p>The exception is : ${catchException} <br /> There is an exception: ${catchException.message}</p>
                                             </c:if>
+                                            --%>
                                         </c:forEach>
                                     </c:catch>
+                                    <%--
                                     <c:if test="${queryException != null}">
                                         <p>The exception is : ${queryException} <br /> There is an exception: ${queryException.message}</p>
                                     </c:if>
+                                    --%>
 
                                 </c:forEach>
                             </urlset>
